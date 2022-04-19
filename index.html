@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? família= Lagosta &family= Roboto+Condensed:wght@700 & display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador de Texto</title>
+</head>
+<body>
+    <header>
+        <h1>Decodificador de Texto</h1>
+        
+    </header>
+    <main>
+        <form>
+            <div class="text__box">
+                <label for="textInput"></label>
+                <textarea name="textInput" id="text__input" maxlength="1500" spellcheck="false" placeholder="Insira apenas letras minusculas e sem acento..." autocomplete="off" oninput="changeText(this.value)" required></textarea>
+            </div>
+            <div class="btn__crip">
+                <input type="button" value="Criptografar" id="btn__cripto" onclick="cripto()">
+                <input type="button" value="Descriptografar" id="btn__descripto" onclick="descripto()">
+            </div>
+        </form>
+
+        <div class="text__result">
+            <div class="out__box flipped">
+                <textarea  id="out__text" disabled></textarea>
+            </div>
+            <div class="btn__copy">
+                <button id="btn__copy" onclick="copy()">Copiar</button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js" type="text/javascript"></script>
+<footer class="footer">
+    <div class="container">
+        <div class="git info">
+            <a href="https://github.com/JanaGoncalo" target="_blank"><img src="imgs/github.gif" alt="GitHub"></a>
+        </div>
+<div class="linkedin info">
+            <a href="https://linkedin.com/in/janagoncalo/" target="_blank"><img src="imgs/linkedin.gif" alt="Linkedin"></a>
+        </div>
+    </div>   
+</footer>
+</body>
+</html>
