@@ -17,6 +17,7 @@
          
      }
      header{
+        /* bottom: 0; */
          background: linear-gradient(#FF1493,#00FFFF);
          font-family: 'Dancing Script', cursive;
          align-items: center;
