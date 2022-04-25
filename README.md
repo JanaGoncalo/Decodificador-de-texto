@@ -8,8 +8,5 @@ Codificador/decodificador de texto usando HTML, CSS e JavaScript, onde as letras
 
 ### Resultado do projeto
 
-### Preview
 ![Gif](imgs/Decodificador-de-texto.gif)
 
-
-Sugestões são bem vindas!
