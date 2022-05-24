@@ -11,5 +11,4 @@ Codificador/decodificador de texto usando HTML, CSS e JavaScript, onde as letras
 ![Gif](imgs/Decodificador-de-texto.gif)
 
 
-
-
+<img src="./imgs/badge1.png" width="150" height="150" />
