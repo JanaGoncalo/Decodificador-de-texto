@@ -27,7 +27,6 @@
 
      header{
         /* bottom: 0; */
-         background: linear-gradient(#FF1493,#00FFFF);
          font-family: 'Dancing Script', cursive;
          align-items: center;
          justify-content: center;
@@ -44,7 +43,6 @@
      }
      footer{
          /* bottom: 0; */
-         background: linear-gradient(#00FFFF,#FF1493);
          font-family: Arial, Helvetica, sans-serif, cursive;
          display: flex;
          align-items: center;
