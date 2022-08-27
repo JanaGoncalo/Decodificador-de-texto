@@ -10,5 +10,5 @@ Codificador/decodificador de texto usando HTML, CSS e JavaScript, onde as letras
 
 ### Resultado do projeto
 
-![Gif](imgs/Decodificador-de-texto.gif)
+![Gif](imgs/Decodificador.gif)
 
